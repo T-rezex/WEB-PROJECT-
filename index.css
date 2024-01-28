@@ -11,7 +11,7 @@
     text-align: left;
   }
 
-  #scroll{
+#scroll{
     position: fixed;
     margin: 0;
     top: 0;
@@ -167,4 +167,14 @@ p {
 
 .button1:hover {
     background-color: #ffffff;
+}
+
+#footer {
+    font-size: small;
+    position: fixed;
+    bottom: -50px; /* Set the initial position to hide the footer */
+    width:2000px;
+    background-color: #333;
+    color: white;
+    transition: bottom 0.3s ease-in-out; /* Add a smooth transition effect */
 }
