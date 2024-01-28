@@ -1,0 +1,170 @@
+.body{
+    margin: 0px;
+}
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width:1160px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-align: left;
+  }
+
+  #scroll{
+    position: fixed;
+    margin: 0;
+    top: 0;
+    width: 2000px;
+    margin-left: -440px;
+    transition-duration: 0.4s
+    
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+.h3{
+    position: absolute;
+    text-align: left;
+    color: blue;
+}
+#text{
+
+    margin-left: -100px;
+    position: absolute;
+    text-align: left;
+    padding-top: 420px;
+    font-size: 55px;
+}
+#text1{
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 650px;
+    width: 645px ;
+    margin-top: -40px;
+    position: absolute;
+    text-align: left;
+    padding-top: 415px;
+
+}
+.opening {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: bold;
+    position: absolute;
+    padding-top: 125px;
+}
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size:20px;
+}
+
+        /* 4. Remove underline for hyperlinks in the nav area */
+nav a {
+    text-decoration: none;
+    color: white;
+}
+ 
+p {
+    text-align: center;
+}
+#leyout{
+    color: #000;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.right-section {
+    width: 30%;
+    background-color: #6b0000;
+    padding: 200px;
+    height: 430px;
+    flex-shrink: 0;
+    width: 1554px;
+    margin-left: -440px;
+}
+#text2{
+    color: #000;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: normal;
+    line-height: normal;
+    margin-left: 370px;
+    width: 940px ;
+    position: absolute;
+    text-align: center;
+    
+}
+#button{
+    margin-left: 680px;
+    padding: 16px 32px;
+    margin-top: 265px;
+}
+
+
+.Allcontent {
+    display: grid;
+    gap: 50px;
+    padding: 16px;
+    padding-top: 204px;
+}
+
+.container{
+    border: 1px solid #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, auto));
+}
+
+.course {
+    background-color: #fff;
+    padding: 91px;
+    text-align: center;
+}
+.pr{
+    margin-top: 230px;
+    font-size: xxx-large;
+}
+.pr1{
+    text-align: left;
+    font-size: 26px;
+}
+
+.p{
+    font-size: xx-large;
+    color: #fff;
+}
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+    margin-left: 400px;
+}
+
+.button1 {
+    background-color: #cacaca;
+    color: #800303;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.button1:hover {
+    background-color: #ffffff;
+}
