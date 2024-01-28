@@ -1,26 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="styles.css">
-    <title>الصفحة الرئيسية</title>
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
-<body>
-	<header id="scroll">
-            <h2>Available Courses</h2>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="student-profile.html">Student Profile</a></li>
-                    <li><a href="teacher-profile.html">Teacher Profile</a></li>
-                    <li><a href="forum.html">Forum</a></li>
-                </ul>
-            </nav>
-        </header>
-	
+<body id="body">
 	<div class="wrapper">
+		<header id="scroll">
+				<h2>HomePage</h2>
+				<nav>
+					<ul>
+						<a href="courses.html">Available Courses &nbsp</a>
+						<a href="student-profile.html">&nbspStudent Profile&nbsp</a>
+						<a href="teacher-profile.html">&nbspTeacher Profile&nbsp</a>
+						<a href="forum.html">&nbspForum&nbsp</a>
+					</ul>
+				</nav>
+		</header>
+		
 
 		
+			
+		<div class="Allcontent">
+			<div class="container">
+				
+				<div class="course">
+					<h2 class="pr">About the wepsite</h2>
+				</div>
+				<div class="course">
+					<p class="pr1" >We are delighted to provide you with an exceptional learning experience. Explore a diverse range of educational courses across various fields, where you can enhance your skills and gain new knowledge.
+						Our mission is to deliver high-quality educational content that meets your needs and helps you achieve your goals. Enjoy browsing our featured courses, and feel free to register for full access to our educational resources. 
+						If you need assistance or have any inquiries, do not hesitate to contact us. We wish you an enjoyable and productive learning experience!
+					</p>
+				</div>
+			</div>
+
+			<div class="container">
+				<div class="right-section">
+					
+						<p class="p">We have some amazing courses to showcase</p>
+					<button id="button" class="button button1" onclick="document.location='courses.html'">Click here to explore</button>
+					
+				</div>
+				
+			</div>	
+				
+			<div class="container">
+				<div class="buttons">
+					<button class="button1">login</button>
+    				<button class="button1">sign up</button>
+				</div>
+			</div>
+		
+		</div>
 	</div>
+	
 </body>
 </html>
