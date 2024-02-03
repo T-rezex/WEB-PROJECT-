@@ -37,34 +37,63 @@
 				</div>
 			</div>
 
-			<div class="container">
-				<div class="right-section">
-					
-						<p class="p">We have some amazing courses to showcase</p>
-					<button id="button" class="button button1" onclick="document.location='courses.html'">Click here to explore</button>
-					
+			<div class="slider">
+				<div class="slides">
+				  <a href="https://youtu.be/wRNinF7YQqQ?si=mILAHOYF9NbbBSKF"><img src="JS.png" alt="JavaScript"></a>
+				  <a href="https://youtu.be/HD13eq_Pmp8?si=ENGj6vwLJ5fzwH5Z"><img src="HTML.png" alt="HTML"></a>
+				  <a href="https://youtu.be/wRNinF7YQqQ?si=mILAHOYF9NbbBSKF"><img src="CSS.png" alt="CSS"></a>
 				</div>
 				
-			</div>	
+				<a id="a" href="courses.html">view more information</a>
+			  </div>
+			
 				
-			<div class="container">
-				<div class="buttons">
-					<button class="button1">login</button>
-    				<button class="button1">sign up</button>
+			<div class="login_grid">
+				<button class="button1" id="loginBtn">Login</button>
+				<button class="button1" id="signupBtn">Sign Up</button>
+			  
+				<div id="signupForm" style="display: none;">
+				  <h2>Sign Up</h2>
+				  <form>
+					<label for="username">Username:</label><br>
+					<input type="text" id="username" name="username"><br>
+					<label for="email">Email:</label><br>
+					<input type="email" id="email" name="email"><br>
+					<label for="password">Password:</label><br>
+					<input type="password" id="password" name="password"><br><br>
+					<button type="submit">Submit</button>
+				  </form>
+				</div>
+			  
+				<div id="loginForm" style="display: none;">
+				  <h2>Login</h2>
+				  <form>
+					<label for="loginUsername">Username:</label><br>
+					<input type="text" id="loginUsername" name="loginUsername"><br>
+					<label for="loginPassword">Password:</label><br>
+					<input type="password" id="loginPassword" name="loginPassword"><br><br>
+					<button type="submit">Submit</button>
+				  </form>
 				</div>
 			</div>
-		
+			  
+			
+			<div class="topPage">
+			<button id="topPageBtn" class="btn" title="Ascend">top page</button>
+			</div>
 		</div>
 	</div>
-	<button id="topPageBtn" class="btn" title="Ascend">top page</button>
+	
 	<footer id="footer">
 		<div>
+			
 			<ul>
+				<div id="last-modified"></div>
 				<li>@CopyRight 2024-2025</li>
 			</ul>
 		</div>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-	<script src="courses.JS"></script>
+	<script src="index.js"></script>
 </body>
 </html>
