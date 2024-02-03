@@ -1,5 +1,9 @@
 .body{
     margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
 .wrapper {
     margin-right: auto;
@@ -8,7 +12,7 @@
     padding-right: 20px;
     padding-left: 20px;
     padding-bottom: 10px;
-    text-align: left;
+    text-align: left;    
   }
 
 #scroll{
@@ -124,6 +128,15 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(380px, auto));
 }
+.login_grid{
+    border: 1px solid #fff;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(380px, auto));
+    gap: 100px;
+}
+.topPage{
+    border: 60px solid #fff;
+    }
 
 .course {
     background-color: #fff;
@@ -172,9 +185,133 @@ p {
 #footer {
     font-size: small;
     position: fixed;
-    bottom: -50px; /* Set the initial position to hide the footer */
     width:2000px;
     background-color: #333;
     color: white;
     transition: bottom 0.3s ease-in-out; /* Add a smooth transition effect */
 }
+
+
+.slider {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease;
+    
+  }
+
+.slides img {
+  width: 60%;
+  height: auto;
+  padding-left: 77px;
+  
+}
+  button {
+    background-color: transparent; /* يجعل الخلفية شفافة */
+    border: none; /* يزيل الحدود */
+    padding: 10px 20px; /* تعيين هوامش داخلية للزر */
+    font-size: 16px; /* حجم الخط */
+    color: #000000; /* لون النص */
+    cursor: pointer; /* تغيير المؤشر عند تحويله إلى زر */
+  }
+
+  #topPageBtn{
+    background-color: darkgray;
+    border-radius: 5px;
+    margin-left: 450px;
+  }
+  .centered {
+    transform: scale(1.1);
+  }
+  /* تنسيق زر السابق */
+  .prev {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: xx-large;
+  }
+  
+  /* تنسيق زر التالي */
+  .next {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: xx-large;
+  }
+    
+  
+  /* أسلوب لتخصيص الأزرار والنماذج */
+.login_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+  
+  .button1 {
+    background-color: #686968; /* لون الخلفية */
+    border: none;
+    color: rgb(0, 0, 0); /* لون النص */
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+  }
+  
+  /* تخصيص نموذج التسجيل ونموذج تسجيل الدخول */
+  form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    background-color: #757575;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+
+  #last-modified{
+    padding-left: 885px;
+  }
+
+  #a {
+    text-decoration: none;
+    color: #000;
+  }
+  
