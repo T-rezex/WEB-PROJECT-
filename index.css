@@ -29,104 +29,53 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
-.h3{
-    position: absolute;
-    text-align: left;
-    color: blue;
-}
-#text{
 
-    margin-left: -100px;
-    position: absolute;
-    text-align: left;
-    padding-top: 420px;
-    font-size: 55px;
+#panimg{
+  width: 160%;
 }
-#text1{
-    color: #000;
-    font-family: Inter;
-    font-size: 30px;
-    font-style: normal;
-    line-height: normal;
-    margin-left: 650px;
-    width: 645px ;
-    margin-top: -40px;
-    position: absolute;
-    text-align: left;
-    padding-top: 415px;
 
-}
-.opening {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: large;
-    font-weight: bold;
-    position: absolute;
-    padding-top: 125px;
-}
+
 nav {
     text-align: center;
     font-weight: bold;
     font-size:20px;
+    transition: opacity 0.3s cubic-bezier(0.42, -0.52, 0.25, 1)
 }
 
-        /* 4. Remove underline for hyperlinks in the nav area */
 nav a {
     text-decoration: none;
     color: white;
-}
- 
-p {
-    text-align: center;
-}
-#leyout{
-    color: #000;
-    font-family: Inter;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.right-section {
-    width: 30%;
-    background-color: #6b0000;
-    padding: 200px;
-    height: 430px;
-    flex-shrink: 0;
-    width: 1554px;
-    margin-left: -440px;
-}
-#text2{
-    color: #000;
-    font-family: Inter;
-    font-size: 50px;
-    font-style: normal;
-    line-height: normal;
-    margin-left: 370px;
-    width: 940px ;
-    position: absolute;
-    text-align: center;
     
 }
-#button{
-    margin-left: 680px;
-    padding: 16px 32px;
-    margin-top: 265px;
+ 
+#p {
+    text-align: left;
+    font-size: 30px;
+    margin-left: -150px;
 }
-
 
 .Allcontent {
     display: grid;
-    gap: 50px;
+    gap: 90px;
     padding: 16px;
-    padding-top: 204px;
+    padding-top: 110px;
 }
 
 .container{
     border: 1px solid #fff;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(380px, auto));
+}
+.Rectangles{
+  margin-top: 40px;
+  margin-left: 65px;
+  border: 2px solid transparent;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(300px , auto));
 }
 .login_grid{
     border: 1px solid #fff;
@@ -140,8 +89,26 @@ p {
 
 .course {
     background-color: #fff;
-    padding: 91px;
-    text-align: center;
+    padding: 75px;
+   
+}
+
+#textPaner{
+  text-align: left;
+    font-size: 60px;
+    margin-left: -180px;
+    font-weight: bold;
+    margin-top: 130px;
+}
+
+.rectangle {
+  width: 230px;
+  height: 250px;
+  background-color: transparent;
+  border: 1px solid black;
+  margin-bottom: 20px;
+  padding: 30px; 
+  border-radius: 10px;
 }
 .pr{
     margin-top: 230px;
@@ -167,20 +134,6 @@ p {
     margin-left: 400px;
 }
 
-.button1 {
-    background-color: #cacaca;
-    color: #800303;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-    text-align: center;
-}
-
-.button1:hover {
-    background-color: #ffffff;
-}
 
 #footer {
     font-size: small;
@@ -188,20 +141,14 @@ p {
     width:2000px;
     background-color: #333;
     color: white;
-    transition: bottom 0.3s ease-in-out; /* Add a smooth transition effect */
+    transition: bottom 0.3s ease-in-out; 
+  }
+
+
+
+.slides {
+    display: flex; 
 }
-
-
-.slider {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-  .slides {
-    display: flex;
-    transition: transform 0.5s ease;
-    
-  }
 
 .slides img {
   width: 60%;
@@ -209,109 +156,54 @@ p {
   padding-left: 77px;
   
 }
-  button {
-    background-color: transparent; /* يجعل الخلفية شفافة */
-    border: none; /* يزيل الحدود */
-    padding: 10px 20px; /* تعيين هوامش داخلية للزر */
-    font-size: 16px; /* حجم الخط */
-    color: #000000; /* لون النص */
-    cursor: pointer; /* تغيير المؤشر عند تحويله إلى زر */
-  }
+ 
 
   #topPageBtn{
     background-color: darkgray;
     border-radius: 5px;
     margin-left: 450px;
-  }
-  .centered {
-    transform: scale(1.1);
-  }
-  /* تنسيق زر السابق */
-  .prev {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: xx-large;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px; 
+    color: #000000;
+    cursor: pointer; 
   }
   
-  /* تنسيق زر التالي */
-  .next {
-    position: absolute;
-    right: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: xx-large;
-  }
-    
-  
-  /* أسلوب لتخصيص الأزرار والنماذج */
-.login_grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-  }
+
   
   .button1 {
-    background-color: #686968; /* لون الخلفية */
+    background-color: #686968;
     border: none;
-    color: rgb(0, 0, 0); /* لون النص */
+    color: rgb(0, 0, 0);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 24px;
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 12px;
   }
   
-  /* تخصيص نموذج التسجيل ونموذج تسجيل الدخول */
-  form {
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 12px;
-  }
   
-  h2 {
-    margin-top: 0;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 10px;
-  }
-  
-  input[type="text"],
-  input[type="email"],
-  input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-  }
-  
-  button[type="submit"] {
-    background-color: #757575;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-  
-  button[type="submit"]:hover {
-    background-color: #45a049;
-  }
-  
-
-  #last-modified{
-    padding-left: 885px;
-  }
-
   #a {
     text-decoration: none;
     color: #000;
+    text-align: center;
+    font-size: x-large;
   }
-  
+
+  #textRectanglep1 {
+    text-align: center;
+  }
+
+  #cnterText{
+    text-align: center;
+    margin-top: 30px;
+    font-size: xxx-large;
+  }
+
+  #titleCourses{
+    margin-left: 130px;
+    font-size: x-large;
+  }
