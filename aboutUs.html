@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="aboutUs.css">
+    <title>About Us</title>
+</head>
+
+<body>
+
+    <header id="scroll">
+        <h2>About Us</h2>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="student-profile.html">Student Profile</a></li>
+                <li><a href="teacher-profile.html">Teacher Profile</a></li>
+                <li><a href="aboutUs.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="main">
+        <div class="wrapper">
+            <section id="description">
+                <pre>
+
+
+
+
+
+                </pre>
+                <h2>Welcome to Our Web Project</h2>
+                <p>This website is dedicated to addressing your concerns and facilitating communication with our team.
+                    Please feel free to submit complaints or reach out to us with any feedback you may have. We
+                    appreciate your input and strive to provide excellent service.</p>
+            </section>
+
+            <!-- Project Development Team Section -->
+            <section>
+                <h3>Project Development Team</h3>
+                <ul class="team">
+                    <li>Mohammed Al-jabri - About us </li>
+                    <li>Saqer Al-gahmdi -Courses </li>
+                    <li>Abdulrhman-homdi - Home </li>
+                    <li>mejdy   -  Student Profile </li>
+                    <li>Abdullah Fatani  -  Teacher Profile </li>
+
+             
+                    
+
+                    <!-- Add more team members as needed -->
+                </ul>
+            </section>
+
+            <section>
+                <h2>Complaints and Communication</h2>
+                <p>If you have any concerns or feedback, please reach out to us. We are here to help!</p>
+
+                <form id="complaintForm">
+                    <label for="name">Your Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <br>
+
+                    <label for="email">Your Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Your Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" pattern="0\d{9}" required
+                           title="Please enter a valid Saudi Arabian phone number in the format 05xxxxxxxxx">
+                    <br>
+
+                    <label for="complaintType">Complaint Type:</label>
+                    <select id="complaintType" name="complaintType" required>
+                        <option value="product">Courses Issue</option>
+                        <option value="service">Service Complaint</option>
+                        <option value="general">General Feedback</option>
+                    </select>
+
+                    <label for="message">Your Detailed Message:</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+
+                    <button type="submit">Submit Complaint</button>
+                </form>
+            </section>
+
+            <section class="communication">
+                <h2 id="Information-h2">Contact Information</h2>
+                <p>Email: sxxxxxxxxx@st.uqu.edu.sa</p>
+                <p>Phone: +966xxxxxxxx</p>
+                <br>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer id="footer">
+        @CopyRight 2024-2025
+    </footer>
+
+    <script src="aboutUs.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,136 @@
+.wrapper {
+    margin-right: auto;
+    margin-left: auto;
+    max-width:1160px;
+    padding-top: Opx;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom:10px;
+
+}
+
+/* Global font styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0; /* Remove default margin */
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.main{
+    margin-left:450px ;
+    margin-right:400px ;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    width:100%;
+}
+
+h2 {
+    color: white;
+    
+}
+
+/* Navigation styling */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Footer styling */
+#footer {
+    font-size: small;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%; /* Adjusted to full width */
+    background-color: #333;
+    color: white;
+    padding: 10px; /* Added padding for better visibility */
+    transition: bottom 0.3s ease-in-out; /* Add a smooth transition effect */
+    text-align: center;
+}
+
+section {
+    padding: 0px;
+    
+}
+
+p {
+    color: #555;
+}
+
+
+/* Complaints Form Styles (Example) */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 4px; /* Smaller margin */
+    color: #333;
+    font-size: small;
+    align-self: first baseline;
+}
+
+input, textarea, select {
+    padding: 8px; /* Smaller padding */
+    margin-bottom: 8px; /* Smaller margin */
+    box-sizing: border-box;
+    width: 600px;
+    align-self: first baseline;
+}
+
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 20px;
+    margin-top: 20px;
+    align-self: first baseline;
+}
+#scroll {
+    position: fixed;
+    margin: 0;
+    top: 0;
+    transition-duration: 0.4s;
+
+}
+
+#Information-h2 {
+
+    color: #000;
+
+}
+
+.team { 
+
+font-weight:bold ;
+
+}
